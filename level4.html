@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/level4.css">
+    <title>택배 주소 및 옵션 입력</title>
+</head>
+<body>
+    <form id="deliveryForm">
+        <h2>택배 정보 입력</h2>
+
+        <!-- 이름, 주소, 전화번호 입력 -->
+        <label for="name">이름</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="address">주소</label>
+        <input type="text" id="address" required>
+        <br>
+        <label for="phone">전화번호</label>
+        <input type="tel" id="phone" required>
+        <br>
+
+        <!-- 배송 옵션 선택 -->
+        <label for="deliveryOption">배송 옵션</label>
+        <select id="deliveryOption">
+            <option value="standard">표준 배송</option>
+            <option value="express">빠른 배송</option>
+            <option value="overnight">밤샘 배송</option>
+        </select>
+        <br>
+
+        <!-- 배송 메모 -->
+        <label for="memo">배송 메모</label>
+        <textarea id="memo" rows="4" cols="50"></textarea>
+        <br>
+
+        <button type="submit">제출</button>
+    </form>
+
+    <script src="js/level4.js"></script>
+</body>
+</html>

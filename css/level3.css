@@ -1,0 +1,44 @@
+/* 기본 폰트와 배경 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h2 {
+    color: #333;
+}
+
+/* 입력 필드와 버튼의 기본 스타일 */
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 입력 필드의 너비 설정 */
+input {
+    width: 200px;
+}
+
+/* 버튼의 배경색, 글자색 및 호버 효과 설정 */
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 결과 텍스트의 스타일 */
+p {
+    font-size: 18px;
+    color: #555;
+}
